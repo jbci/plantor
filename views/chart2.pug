@@ -1,0 +1,11 @@
+div(id='viz2')
+script(type="text/javascript").
+  d3.select("#viz2")
+    .append("svg")
+      .attr('width', 600)
+      .attr('height', 300)
+      .append('circle')
+        .attr('cx', 300)
+        .attr('cy', 150)
+        .attr('r', 30)
+        .attr('fill', '#2696c3')

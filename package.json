@@ -1,0 +1,19 @@
+{
+  "name": "plantor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon index.js -e js,pug",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^4.12.2",
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4",
+    "sqlite3": "^3.1.13"
+  }
+}
